@@ -5,4 +5,4 @@ data = base64.b64decode(url[1]).decode('utf-8')
 if(url[0] == "vmess"):
     print(data)
 else:
-    print("..")
+    print("Not Support!")
